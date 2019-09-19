@@ -9,7 +9,7 @@ def hello(array)
     i += 1
   end
 
-  collection
+  collection #return new collection at the end
 end
 
 
