@@ -15,3 +15,5 @@ hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
 # Hi, Tom
 # Hi, Jim
 # => nil
+# return value of while loop is always nil — 
+# if we want our method to return something else, we have to tell it to do so 
