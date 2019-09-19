@@ -2,10 +2,10 @@ require 'pry'
 
 def hello(array)
   i = 0
-  collection = []
+  collection = [] #set varaible collection = empty array 
   
   while i < array.length
-    collection << yield(array[i])
+    collection << yield(array[i]) #push return value of using yeild(array[i]) into colelction array
     i += 1
   end
 
