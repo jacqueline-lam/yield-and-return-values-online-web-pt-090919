@@ -11,6 +11,7 @@ end
 binding pry
 
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
-# => Hi, Tim
+# Hi, Tim
 # => Hi, Tom
 # => Hi, Jim
+# =>
